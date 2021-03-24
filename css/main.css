@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@600&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+}
+.first{
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 0;
+    height: 100vh;
+}
+.second{
+    background-image: url('../img/2.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 0;
+    height: 100vh;
+}
+
+.third{
+    background-image: url('../img/5.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 0;
+    height: 100vh;   
+}
+
+.caption{
+    display: inline-block;
+    width: 50%;
+    margin: 0 25%;
+    position: absolute;
+    top: 50%;
+    text-align:center;
+    font-family: 'Vollkorn', serif;
+    color: white;
+
+}
+.caption_line1{
+    font-size: 50px;
+    text-shadow: 1px 5px 5px black;
+}
+.caption_line2{
+    font-size: 30px;
+    text-shadow: 1px 5px 5px black;
+}
+.logo{
+    position:absolute;
+    margin: 0 25%;
+    top: 70%;
+    text-align:center;
+    
+}
+.logo_img{
+    width: 30%;
+}
+
+.second_box1{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+ 
+}
+.second_box2{
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+}
+
+.list_block{
+    display: block;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin: 5% 20% 20% 10%;
+    border: 3px solid white;
+    background-color: #0000007f;
+    border-radius: 20px;
+    color: white;
+}
+
+.list_caption{
+    margin-left: 30px;
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+}
+
+
+
+.list_items{
+    margin-left:30px;
+    list-style-image: url('../img/car.png');
+    line-height: 50px;
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+
+}
+
+.list_button{
+    display: block;
+    width: 120px;
+    margin:auto;
+    padding: 15px 33px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffffff40;
+    color: white;
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+
+}
+.list_button:hover{
+    background-color: #ffffff7f;
+}
+
+.third_box1{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    
+}
+.third_box2{
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+}
+
+.form_block{
+    display: block;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin: 5% 20% 20% 10%;
+    border: 3px solid white;
+    background-color: #0000007f;
+    border-radius: 20px;
+    color: white;
+}
+
+.form{
+    height: 200px;
+    width: 300px;
+    margin: 20% 20%;
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+}
+
+.phone{
+    display:block;
+    margin-top:20px;
+    margin-left:20%;  
+}
+
+.form_button{
+    display:block;
+    margin-left:20%;
+    width: 120px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    text-decoration: none;
+    font-family: 'Vollkorn', serif;
+    font-size: 15px;
+    background-color: #ffffff;
+}
